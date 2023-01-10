@@ -117,3 +117,7 @@ arr4.unshift("Maxence")
 arr4.push("Louise");
 console.log(arr4);
 
+let arr6 = ["Victor", "Igor", "Tomasz", "Simon", "Dean"];
+arr6.shift();
+arr6.pop();
+console.log(arr6);
