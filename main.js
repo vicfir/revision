@@ -11,6 +11,7 @@ let var2 = null;
 let var3;
 console.log(var2, var3);
 
+//2
 let str = "blabla";
 let int = 25;
 let boo = true;
@@ -42,3 +43,9 @@ let string = "5";
 console.log(integer + string);
 string = 5;
 console.log(integer + string);
+
+//3
+var prenom = "Victor";
+let  age = 27;
+const nom = "Firkowski";
+console.log(prenom, age, nom);
