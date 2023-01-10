@@ -16,3 +16,8 @@ let int = 25;
 let boo = true;
 console.log(str, int , boo);
 console.log(typeof str, typeof int, typeof boo);
+
+let pays = "Pologne";
+let capitale = "Varsovie";
+console.log(capitale + " est la capitale du pays : " + pays);
+
