@@ -107,3 +107,7 @@ console.log(arr3[3][0]);
 console.log(arr3[4].slice(1, 5));
 console.log(arr3[0].charAt(0).toLowerCase() + arr3[0].charAt(1).toUpperCase());
 console.log(arr3[0] + arr3[2]);
+
+let arr4 = [];
+arr4.push("Victor", "Igor", "Tomasz", "Simon", "Dean");
+console.log(arr4);
