@@ -53,3 +53,14 @@ console.log(prenom, age, nom);
 var prenom = "...";
 // let age = 25;
 console.log(prenom, age);
+
+// const nom = "+++";
+console.log(nom);
+
+exo3 = "test";
+exo31 = 666;
+if (true) {
+    let exo3 = "test";
+    var exo31 = 666;
+}
+console.log(exo3, exo31);
