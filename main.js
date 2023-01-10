@@ -71,3 +71,10 @@ console.log(pLettre.charAt(0));
 
 let lettres = prompt("Entrez votre prenom");
 console.log(lettres.slice(1, lettres.length));
+
+let prenom5 =  prompt("Entrez votre prenom");
+if (prenom5.length < 5) {
+    alert("votre prenom est trop court");
+} else {
+    alert(`La 5eme lettre de votre prenom est ${prenom5[4]}`);
+}
