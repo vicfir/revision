@@ -36,3 +36,9 @@ console.log(variable1 = variable2);
 console.log(typeof variable2);
 console.log(variable1 == variable2);
 console.log(variable1 === variable2);
+
+let integer = 5;
+let string = "5";
+console.log(integer + string);
+string = 5;
+console.log(integer + string);
