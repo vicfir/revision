@@ -98,3 +98,12 @@ console.log(arr1, typeof arr1);
 
 let arr2 = ["txt", 34, true, []];
 console.log(arr2[0],arr2[1], arr2[2], arr2[3]);
+
+let arr3 = ["test", "testb", "test3", "test4", "test5"];
+console.log(arr3[2]);
+console.log(arr3[0], arr3[4]);
+console.log(arr3[1].slice(0,4).toUpperCase() + arr3[1].charAt(4).toLowerCase());
+console.log(arr3[3][0]);
+console.log(arr3[4].slice(1, 5));
+console.log(arr3[0].charAt(0).toLowerCase() + arr3[0].charAt(1).toUpperCase());
+console.log(arr3[0] + arr3[2]);
