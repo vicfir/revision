@@ -111,3 +111,9 @@ console.log(arr3[0] + arr3[2]);
 let arr4 = [];
 arr4.push("Victor", "Igor", "Tomasz", "Simon", "Dean");
 console.log(arr4);
+
+let arr5 = ["Victor", "Igor", "Tomasz", "Simon", "Dean"];
+arr4.unshift("Maxence")
+arr4.push("Louise");
+console.log(arr4);
+
