@@ -138,3 +138,9 @@ console.log(arr9);
 
 let arr10 = ["Ayoub", "Jamila", "Alex", "Natchez", "Bene"];
 console.log(arr10.splice(0,3));
+
+let classe = [];
+let couloir = ["victor", "igor", "dean", "hf", "tomasz", "simon", "dorian", "Philip", "patric", "maxim"]
+for (let index = 0; i < couloir.length ; index++) {
+    classe.push   
+}
