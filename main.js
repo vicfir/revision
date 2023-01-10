@@ -24,3 +24,8 @@ console.log(maPhrase);
 
 let maPhraseNew = `${capitale} est la capitale du pays : ${pays}`;
 console.log(maPhraseNew);
+
+let aaa = "aaa";
+let bbb = "bbb";
+let ccc = 18;
+console.log(`${aaa} dhdfhdf ${bbb} efsfeesf = ${ccc}`);
