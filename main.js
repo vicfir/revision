@@ -127,6 +127,11 @@ arr7 = arr7.slice(2, 3);
 console.log(arr7);
 
 let arr8 =  ["Victor", "Igor", "Tomasz", "Simon", "Dean"];
-arr8.splice(1,1,"Ayhan");
-arr8.splice(3,3,"Elias");
+let arr81 = arr8.splice(1,1,"Ayhan");
+let arr82 = arr8.splice(3,3, "Elias");
 console.log(arr8);
+
+let arr9 = ["Ayoub", "Jamila", "Alex", "Natchez", "Bene"];
+let arr91 = arr9.splice(1, 1, "Zulma");
+let arr92 = arr9.splice(0, 1, "Adame");
+console.log(arr9);
