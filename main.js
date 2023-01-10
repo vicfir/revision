@@ -49,3 +49,7 @@ var prenom = "Victor";
 let  age = 27;
 const nom = "Firkowski";
 console.log(prenom, age, nom);
+
+var prenom = "...";
+// let age = 25;
+console.log(prenom, age);
