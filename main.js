@@ -121,3 +121,7 @@ let arr6 = ["Victor", "Igor", "Tomasz", "Simon", "Dean"];
 arr6.shift();
 arr6.pop();
 console.log(arr6);
+
+let arr7 = ["Victor", "Igor", "Tomasz", "Simon", "Dean"];
+arr7 = arr7.slice(2, 3);
+console.log(arr7);
