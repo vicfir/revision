@@ -135,3 +135,6 @@ let arr9 = ["Ayoub", "Jamila", "Alex", "Natchez", "Bene"];
 let arr91 = arr9.splice(1, 1, "Zulma");
 let arr92 = arr9.splice(0, 1, "Adame");
 console.log(arr9);
+
+let arr10 = ["Ayoub", "Jamila", "Alex", "Natchez", "Bene"];
+console.log(arr10.splice(0,3));
