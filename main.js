@@ -29,3 +29,10 @@ let aaa = "aaa";
 let bbb = "bbb";
 let ccc = 18;
 console.log(`${aaa} dhdfhdf ${bbb} efsfeesf = ${ccc}`);
+
+let variable1 = 7;
+let variable2 = "7";
+console.log(variable1 = variable2);
+console.log(typeof variable2);
+console.log(variable1 == variable2);
+console.log(variable1 === variable2);
