@@ -78,3 +78,11 @@ if (prenom5.length < 5) {
 } else {
     alert(`La 5eme lettre de votre prenom est ${prenom5[4]}`);
 }
+
+let prenom6 = prompt("Entrez votre prenom");
+if (prenom6.length < 5) {
+    alert(`Votre prenom est trop court, il a ${prenom6.length} caracteres. La derniere lettre de votre prenom est ${prenom6[prenom6.length-1]}`);
+} else {
+    alert(`La 5eme lettre de votre prenom est ${prenom6[4]}`);
+}
+
