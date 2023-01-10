@@ -86,3 +86,8 @@ if (prenom6.length < 5) {
     alert(`La 5eme lettre de votre prenom est ${prenom6[4]}`);
 }
 
+let minMaj = prompt('Entrez du text');
+console.log(minMaj.toLowerCase());
+console.log(minMaj.toUpperCase());
+console.log(minMaj.charAt(0).toUpperCase() + minMaj.slice(1).toLowerCase());
+console.log(minMaj.charAt(0).toLowerCase() + minMaj.slice(1).toUpperCase());
