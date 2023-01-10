@@ -19,5 +19,8 @@ console.log(typeof str, typeof int, typeof boo);
 
 let pays = "Pologne";
 let capitale = "Varsovie";
-console.log(capitale + " est la capitale du pays : " + pays);
+let maPhrase = capitale + " est la capitale du pays : " + pays;
+console.log(maPhrase);
 
+let maPhraseNew = `${capitale} est la capitale du pays : ${pays}`;
+console.log(maPhraseNew);
