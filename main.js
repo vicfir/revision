@@ -64,3 +64,10 @@ if (true) {
     var exo31 = 666;
 }
 console.log(exo3, exo31);
+
+//methodes------------------------------------------------------------------------------------
+let pLettre = prompt("Entrez votre prenom");
+console.log(pLettre.charAt(0));
+
+let lettres = prompt("Entrez votre prenom");
+console.log(lettres.slice(1, lettres.length));
